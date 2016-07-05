@@ -4,6 +4,11 @@ output: html_document
 ---
 
 
+```{r global_options, include=FALSE}
+knitr::opts_chunk$set(fig.path="figures/")
+```
+
+
 ## Loading and preprocessing the data
 
 - Loads the data into R (assuming it is in the working directory).
